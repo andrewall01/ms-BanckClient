@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms-BankClient
+    name: ms_BankClient
   cloud:
     config:
       uri: http://localhost:8081
