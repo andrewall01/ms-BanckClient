@@ -1,0 +1,11 @@
+package com.project.ms.client.infrastructure.repositories;
+
+import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
+import org.springframework.stereotype.Repository;
+
+import com.project.ms.client.domain.entities.Person;
+
+@Repository
+public interface PersonRepository extends ReactiveMongoRepository<Person, String>{
+
+}
