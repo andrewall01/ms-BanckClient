@@ -7,6 +7,13 @@ import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.data.mongodb.config.EnableReactiveMongoAuditing;
 
+/**
+ * Public class MsClientApplication for microservices ms_BankClient.
+ * 
+ * @author Andres Llontop
+ *
+ */
+
 @SpringBootApplication
 @EnableReactiveMongoAuditing
 @EnableEurekaClient
