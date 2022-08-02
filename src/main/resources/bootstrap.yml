@@ -6,3 +6,10 @@ spring:
       uri: http://localhost:8081
       username: security
       password: security
+  data:
+    mongodb:
+      uri: mongodb+srv://msmongodb:msmongodb@cluster-mongodb-microse.exrojkp.mongodb.net/test
+      host: cluster-mongodb-microse.exrojkp.mongodb.net
+      port: 27017
+      
+  
